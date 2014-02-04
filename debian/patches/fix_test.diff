@@ -1,0 +1,47 @@
+diff --git a/autotests/ktranscripttest.cpp b/autotests/ktranscripttest.cpp
+index db8139a..aa75bac 100644
+--- a/autotests/ktranscripttest.cpp
++++ b/autotests/ktranscripttest.cpp
+@@ -37,26 +37,32 @@ KTranscriptTest::KTranscriptTest()
+ {
+ }
+ 
+-// FIXME: Duplicated from klocalizedstring.cpp. Should be shared.
++/**
++ * Finds the ktranscript plugin in the *build* dir, not the install dir. Using
++ * the build dir is necessary to ensure the test can be run without requiring
++ * `make install`.
++ *
++ * Returns the absolute path to the plugin, without the (platform-specific)
++ * extension.
++ */
+ static QString findKTranscriptPlugin()
+ {
+-    QStringList nameFilters;
+-    QString pluginSubdir = QLatin1String("kf5");
+     QString pluginName = QLatin1String("ktranscript");
++    QStringList nameFilters;
+     nameFilters.append(pluginName + QLatin1String(".*"));
+-    Q_FOREACH (const QString &dirPath, QCoreApplication::libraryPaths()) {
+-        QString dirPathKf = dirPath + QLatin1Char('/') + pluginSubdir;
+-        if (!QDir(dirPathKf).entryList(nameFilters).isEmpty()) {
+-            return dirPathKf + QLatin1Char('/') + pluginName;
+-        }
++
++    QString dir = QCoreApplication::applicationDirPath() + QLatin1String("/../src");
++    if (QDir(dir).entryList(nameFilters).isEmpty()) {
++        return QString();
++    } else {
++        return dir + QLatin1Char('/') + pluginName;
+     }
+-    return QString();
+ }
+ 
+ void KTranscriptTest::initTestCase()
+ {
+     QString pluginPath = findKTranscriptPlugin();
+-    QVERIFY(!pluginPath.isEmpty());
++    QVERIFY2(!pluginPath.isEmpty(), "Could not find ktranscript plugin");
+ 
+     m_library.setFileName(pluginPath);
+ }

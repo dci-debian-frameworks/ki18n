@@ -1,0 +1,9 @@
+ki18n (4.95.0-0ubuntu1) trusty; urgency=low
+
+  [ Scarlett Clark ]
+  * Initial release
+
+  [ Jonathan Riddell ]
+  * Add fix_test.diff from https://git.reviewboard.kde.org/r/115049/
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 13 Jan 2014 13:35:49 +0000
