@@ -4,14 +4,14 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, libkf5kjs-dev
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, libkf5kjs-dev (>= 4.96.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/ki18n
 
 Package: libkf5i18n-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5i18n5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5i18n4 (= ${binary:Version}), ${misc:Depends}
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for 
  user-interface text. It enables localization of 
@@ -25,7 +25,7 @@ Description: Advanced internationalization framework.
  .
  Contains development files for ki18n.
  
-Package: libkf5i18n5
+Package: libkf5i18n4
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -41,12 +41,12 @@ Description: Advanced internationalization framework.
  the Qt library, but it also provides additional
  functionality over basic Gettext.
 
-Package: libkf5i18n5-dbg
+Package: libkf5i18n4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5i18n5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5i18n4 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for ki18n
  Ki18n is the KDE internationalization system for 
  user-interface text. It enables localization of 
