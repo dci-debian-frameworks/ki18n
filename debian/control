@@ -11,7 +11,7 @@ Homepage: https://projects.kde.org/projects/frameworks/ki18n
 Package: libkf5i18n-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5i18n4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5i18n5 (= ${binary:Version}), ${misc:Depends}
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for 
  user-interface text. It enables localization of 
@@ -25,7 +25,7 @@ Description: Advanced internationalization framework.
  .
  Contains development files for ki18n.
  
-Package: libkf5i18n4
+Package: libkf5i18n5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -41,12 +41,12 @@ Description: Advanced internationalization framework.
  the Qt library, but it also provides additional
  functionality over basic Gettext.
 
-Package: libkf5i18n4-dbg
+Package: libkf5i18n5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5i18n4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5i18n5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for ki18n
  Ki18n is the KDE internationalization system for 
  user-interface text. It enables localization of 
