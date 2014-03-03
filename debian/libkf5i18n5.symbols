@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5I18n.so.4 libkf5i18n4 #MINVER#
+libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _Z5ki18nPKc@Base 4.96.0
  _Z6ki18ncPKcS0_@Base 4.96.0
  _Z6ki18ndPKcS0_@Base 4.96.0
