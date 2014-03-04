@@ -1,7 +1,13 @@
 ki18n (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream alpha release
   * Rename library package for soname 5
+
+  [ Scarlett Clark ]
+  - Fix install file
+  - Fix missing depend 
+  - Fix symbols
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:20:17 +0000
 

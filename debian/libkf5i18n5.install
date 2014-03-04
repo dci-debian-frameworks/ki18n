@@ -1,2 +1,3 @@
 usr/lib/*/libKF5I18n.so.4*
-usr/lib/*/qt5/plugins/kf5/ktranscript.sousr/lib/*/libKF5I18n.so.5
+usr/lib/*/qt5/plugins/kf5/ktranscript.so
+usr/lib/*/libKF5I18n.so.5
