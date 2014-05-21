@@ -1,4 +1,4 @@
 usr/include/KF5/
-usr/lib/*/libKF5I18n.so
 usr/lib/*/cmake/KF5I18n/
+usr/lib/*/libKF5I18n.so
 usr/share/qt5/mkspecs/modules/qt_KI18n.pri
