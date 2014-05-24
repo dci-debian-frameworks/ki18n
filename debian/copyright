@@ -30,7 +30,7 @@ License: LGPL-2+
 
 Files: autotests/ktranscripttest.cpp
        autotests/ktranscripttest.h
-Copyright: 2013 Aurélien Gâteau <agateau@kde.org>   
+Copyright: 2013 Aurélien Gâteau <agateau@kde.org>
 License: LGPL-2.1+ accepted by the membership of KDE e.V.
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -51,10 +51,10 @@ License: LGPL-2.1+ accepted by the membership of KDE e.V.
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: autotests/klocalizedstringtest.h       
-Copyright: 2005 Thomas Braxton <brax108@cox.net>           
+Files: autotests/klocalizedstringtest.h
+Copyright: 2005 Thomas Braxton <brax108@cox.net>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -71,10 +71,10 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
-  
-Files: debian/*       
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: debian/*
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -91,4 +91,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
- 
