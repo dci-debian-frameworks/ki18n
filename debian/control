@@ -5,8 +5,8 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.13),
-               libkf5kjs-dev (>= 4.99.0),
+               extra-cmake-modules (>= 0.0.14),
+               libkf5kjs-dev (>= 4.100.0),
                pkg-kde-tools,
                qtbase5-dev,
                qtscript5-dev
@@ -18,10 +18,10 @@ Section: libdevel
 Architecture: any
 Depends: libkf5i18n5 (= ${binary:Version}), ${misc:Depends}
 Description: Advanced internationalization framework.
- Ki18n is the KDE internationalization system for 
- user-interface text. It enables localization of 
- user-visible strings, including locale-aware argument 
- substitution and formatting. Ki18n is built atop the 
+ Ki18n is the KDE internationalization system for
+ user-interface text. It enables localization of
+ user-visible strings, including locale-aware argument
+ substitution and formatting. Ki18n is built atop the
  widely used Gettext internationalization system, making
  the workflow familiar to both programmers and translators.
  It can be considered a Gettext-wrapper for code based on
