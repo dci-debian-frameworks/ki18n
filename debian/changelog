@@ -7,6 +7,9 @@ ki18n (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump depends versions
   * Bump depends versions
 
+  [ Harald Sitter ]
+  * Add libkf5i18n5-data for localization data
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:39:26 +0100
 
 ki18n (4.99.0-0ubuntu1) trusty; urgency=medium
