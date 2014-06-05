@@ -45,11 +45,9 @@ Description: Advanced internationalization framework.
  the Qt library, but it also provides additional
  functionality over basic Gettext.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5i18n5-data
 Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
 Description: Advanced internationalization framework.
