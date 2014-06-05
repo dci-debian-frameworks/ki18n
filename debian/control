@@ -33,7 +33,7 @@ Description: Advanced internationalization framework.
 Package: libkf5i18n5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5i18n5-data (= ${binary:Version})
+ libkf5i18n5-data (= ${source:Version})
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for
  user-interface text. It enables localization of
