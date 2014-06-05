@@ -8,7 +8,7 @@ ki18n (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump depends versions
 
   [ Harald Sitter ]
-  * Add libkf5i18n5-data for localization data
+  * Add libkf5i18n-data for localization data
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
 

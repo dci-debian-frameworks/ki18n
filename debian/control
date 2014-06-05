@@ -33,7 +33,7 @@ Description: Advanced internationalization framework.
 Package: libkf5i18n5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5i18n5-data (= ${source:Version})
+ libkf5i18n-data (= ${source:Version})
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for
  user-interface text. It enables localization of
@@ -46,10 +46,10 @@ Description: Advanced internationalization framework.
  functionality over basic Gettext.
 Multi-Arch: same
 
-Package: libkf5i18n5-data
+Package: libkf5i18n-data
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for
  user-interface text. It enables localization of
