@@ -30,6 +30,7 @@ libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _ZN16KLocalizedString17localizedFilePathERK7QString@Base 4.97.0
  _ZN16KLocalizedString20setApplicationDomainEPKc@Base 4.97.0
  _ZN16KLocalizedString23removeAcceleratorMarkerERK7QString@Base 4.97.0
+ _ZN16KLocalizedString27availableDomainTranslationsERK10QByteArray@Base 5.0.0
  _ZN16KLocalizedString27isApplicationTranslatedIntoERK7QString@Base 4.97.0
  _ZN16KLocalizedString32availableApplicationTranslationsEv@Base 4.97.0
  _ZN16KLocalizedStringC1EPKcS1_S1_S1_b@Base 4.97.0
@@ -41,6 +42,17 @@ libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _ZN16KLocalizedStringD1Ev@Base 4.97.0
  _ZN16KLocalizedStringD2Ev@Base 4.97.0
  _ZN16KLocalizedStringaSERKS_@Base 4.97.0
+ _ZN20KLocalizedTranslator11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.0
+ _ZN20KLocalizedTranslator11qt_metacastEPKc@Base 5.0.0
+ _ZN20KLocalizedTranslator16staticMetaObjectE@Base 5.0.0
+ _ZN20KLocalizedTranslator19addContextToMonitorERK7QString@Base 5.0.0
+ _ZN20KLocalizedTranslator20setTranslationDomainERK7QString@Base 5.0.0
+ _ZN20KLocalizedTranslator22removeContextToMonitorERK7QString@Base 5.0.0
+ _ZN20KLocalizedTranslatorC1EP7QObject@Base 5.0.0
+ _ZN20KLocalizedTranslatorC2EP7QObject@Base 5.0.0
+ _ZN20KLocalizedTranslatorD0Ev@Base 5.0.0
+ _ZN20KLocalizedTranslatorD1Ev@Base 5.0.0
+ _ZN20KLocalizedTranslatorD2Ev@Base 5.0.0
  _ZN9KuitSetup11setTagClassERK7QStringN4Kuit8TagClassE@Base 4.97.0
  _ZN9KuitSetup13setTagPatternERK7QStringRK11QStringListN4Kuit12VisualFormatERK16KLocalizedStringPFS0_S5_S2_RK5QHashIS0_S0_ES2_S5_S7_Ei@Base 4.97.0
  _ZN9KuitSetup18setFormatForMarkerERK7QStringN4Kuit12VisualFormatE@Base 4.97.0
@@ -69,3 +81,8 @@ libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _ZNK16KLocalizedString8toStringEv@Base 4.97.0
  _ZNK16KLocalizedString9inContextERK7QStringS2_@Base 4.97.0
  _ZNK16KLocalizedString9relaxSubsEv@Base 4.97.0
+ _ZNK20KLocalizedTranslator10metaObjectEv@Base 5.0.0
+ _ZNK20KLocalizedTranslator9translateEPKcS1_S1_i@Base 5.0.0
+ _ZTI20KLocalizedTranslator@Base 5.0.0
+ _ZTS20KLocalizedTranslator@Base 5.0.0
+ _ZTV20KLocalizedTranslator@Base 5.0.0
