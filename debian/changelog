@@ -7,6 +7,8 @@ ki18n (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix install file 
   * Fix install path 
   * Fix symbols 
+  * Update watch file to stable
+  * Add Vcs
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:36:10 +0200
 
