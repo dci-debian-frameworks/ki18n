@@ -19,7 +19,7 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/ki
 Package: libkf5i18n-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5i18n5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5i18n5 (= ${binary:Version}), ${misc:Depends}, python
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for
  user-interface text. It enables localization of
