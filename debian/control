@@ -9,7 +9,8 @@ Build-Depends: cmake,
                libkf5kjs-dev (>= 5.2.0),
                pkg-kde-tools,
                qtbase5-dev,
-               qtscript5-dev
+               qtscript5-dev,
+               libpython-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/ki18n
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/ki18n
