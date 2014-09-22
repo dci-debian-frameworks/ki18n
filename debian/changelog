@@ -1,10 +1,10 @@
-ki18n (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+ki18n (5.2.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Use pkg-kde-tools build scripts version 3
   * Make libkf5i18n-dev depent on python a new cmake build-dep
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:39:11 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:39:49 +0200
 
 ki18n (5.1.0-0ubuntu1) utopic; urgency=medium
 
