@@ -13,8 +13,8 @@ Build-Depends: cmake,
                python
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/ki18n
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/ki18n
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/ki18n
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/ki18n.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/ki18n.git
 
 Package: libkf5i18n-dev
 Section: libdevel
