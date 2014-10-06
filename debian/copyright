@@ -33,7 +33,7 @@ License: LGPL-2+
 Files: autotests/ktranscripttest.cpp
        autotests/ktranscripttest.h
 Copyright: 2013 Aurélien Gâteau <agateau@kde.org>
-License: LGPL-2.1+ accepted by the membership of KDE e.V.
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
