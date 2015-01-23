@@ -11,7 +11,7 @@ Build-Depends: cmake,
                python,
                qtbase5-dev,
                qtscript5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/ki18n
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/ki18n.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/ki18n.git
