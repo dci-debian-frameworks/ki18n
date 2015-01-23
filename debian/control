@@ -19,7 +19,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/ki18n.git
 Package: libkf5i18n-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5i18n5 (= ${binary:Version}), python, ${misc:Depends}
+Depends: libkf5i18n5 (= ${binary:Version}),
+         python,
+         qtscript5-dev,
+         ${misc:Depends}
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for
  user-interface text. It enables localization of

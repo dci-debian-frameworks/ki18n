@@ -7,6 +7,7 @@ ki18n (5.6.0-1~) UNRELEASED; urgency=medium
   * Remove kjs build dependency, keep ki18n in tier 1.
   * Update copyright information.
   * Add basic autopkgtests support.
+  * Add missing dev dependency (thanks to acc headers check).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Jan 2015 09:47:28 +0100
 
