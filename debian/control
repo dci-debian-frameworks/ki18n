@@ -21,7 +21,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5i18n5 (= ${binary:Version}),
          python,
-         qtscript5-dev,
+         qtscript5-dev (>= 5.2.0),
          ${misc:Depends}
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for
