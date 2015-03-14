@@ -9,4 +9,4 @@ override_dh_strip:
 override_dh_auto_test:
 	[ -e $(CURDIR)/debian/tests.home ] || mkdir $(CURDIR)/debian/tests.home
 	HOME=$(CURDIR)/debian/tests.home $(overridden_command)
-	rm -rf $(CURDIR)/debian/home/tests.home
+	rm -rf $(CURDIR)/debian/tests.home
