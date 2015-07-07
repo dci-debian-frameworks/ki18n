@@ -11,6 +11,16 @@ ki18n (5.11.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 10:48:38 +0200
 
+ki18n (5.10.0-0ubuntu1) wily; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:43:01 +0200
+
 ki18n (5.9.0-1) experimental; urgency=medium
 
   * New upstream release (5.9.0).
