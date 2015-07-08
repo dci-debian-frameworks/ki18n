@@ -5,6 +5,12 @@ ki18n (5.11.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 10:48:38 +0200
 
+ki18n (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:19:25 -0700
+
 ki18n (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
