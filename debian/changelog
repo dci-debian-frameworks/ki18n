@@ -1,4 +1,4 @@
-ki18n (5.12.0-2) unstable; urgency=medium
+ki18n (5.12.0-2) UNRELEASED; urgency=medium
 
   * Drop XS-Testsuite field.
 
