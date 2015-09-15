@@ -1,8 +1,8 @@
-ki18n (5.14.0-1~) UNRELEASED; urgency=medium
+ki18n (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Sep 2015 00:22:37 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:47:23 +0200
 
 ki18n (5.13.0-1) unstable; urgency=medium
 
