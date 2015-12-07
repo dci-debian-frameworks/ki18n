@@ -1,9 +1,8 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 5.17.0 amd64
 ktranscript.so libkf5i18n5 #MINVER#
  _ZTI11QScriptable@Base 4.97.0
  _ZTS11QScriptable@Base 4.97.0
  load_transcript@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
 libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _Z5ki18nPKc@Base 4.97.0
  _Z6ki18ncPKcS0_@Base 4.97.0
@@ -42,6 +41,16 @@ libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _ZN16KLocalizedStringD1Ev@Base 4.97.0
  _ZN16KLocalizedStringD2Ev@Base 4.97.0
  _ZN16KLocalizedStringaSERKS_@Base 4.97.0
+ _ZN17KLocalizedContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.17.0
+ _ZN17KLocalizedContext11qt_metacastEPKc@Base 5.17.0
+ _ZN17KLocalizedContext16staticMetaObjectE@Base 5.17.0
+ _ZN17KLocalizedContext20setTranslationDomainERK7QString@Base 5.17.0
+ _ZN17KLocalizedContext24translationDomainChangedERK7QString@Base 5.17.0
+ _ZN17KLocalizedContextC1EP7QObject@Base 5.17.0
+ _ZN17KLocalizedContextC2EP7QObject@Base 5.17.0
+ _ZN17KLocalizedContextD0Ev@Base 5.17.0
+ _ZN17KLocalizedContextD1Ev@Base 5.17.0
+ _ZN17KLocalizedContextD2Ev@Base 5.17.0
  _ZN20KLocalizedTranslator11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.0
  _ZN20KLocalizedTranslator11qt_metacastEPKc@Base 5.0.0
  _ZN20KLocalizedTranslator16staticMetaObjectE@Base 5.0.0
@@ -81,8 +90,29 @@ libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _ZNK16KLocalizedString8toStringEv@Base 4.97.0
  _ZNK16KLocalizedString9inContextERK7QStringS2_@Base 4.97.0
  _ZNK16KLocalizedString9relaxSubsEv@Base 4.97.0
+ _ZNK17KLocalizedContext10metaObjectEv@Base 5.17.0
+ _ZNK17KLocalizedContext17translationDomainEv@Base 5.17.0
+ _ZNK17KLocalizedContext4i18nERK7QStringRK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext5i18ncERK7QStringS2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext5i18ndERK7QStringS2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext5i18npERK7QStringS2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext5xi18nERK7QStringRK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext6i18ncpERK7QStringS2_S2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext6i18ndcERK7QStringS2_S2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext6i18ndpERK7QStringS2_S2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext6xi18ncERK7QStringS2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext6xi18ndERK7QStringS2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext6xi18npERK7QStringS2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext7i18ndcpERK7QStringS2_S2_S2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext7xi18ncpERK7QStringS2_S2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext7xi18ndcERK7QStringS2_S2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext7xi18ndpERK7QStringS2_S2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
+ _ZNK17KLocalizedContext8xi18ndcpERK7QStringS2_S2_S2_RK8QVariantS5_S5_S5_S5_S5_S5_S5_S5_S5_@Base 5.17.0
  _ZNK20KLocalizedTranslator10metaObjectEv@Base 5.0.0
  _ZNK20KLocalizedTranslator9translateEPKcS1_S1_i@Base 5.0.0
+ _ZTI17KLocalizedContext@Base 5.17.0
  _ZTI20KLocalizedTranslator@Base 5.0.0
+ _ZTS17KLocalizedContext@Base 5.17.0
  _ZTS20KLocalizedTranslator@Base 5.0.0
+ _ZTV17KLocalizedContext@Base 5.17.0
  _ZTV20KLocalizedTranslator@Base 5.0.0
