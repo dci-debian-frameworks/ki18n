@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.17.0 amd64
+# SymbolsHelper-Confirmed: 5.18.0 amd64 arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 ktranscript.so libkf5i18n5 #MINVER#
  _ZTI11QScriptable@Base 4.97.0
  _ZTS11QScriptable@Base 4.97.0
