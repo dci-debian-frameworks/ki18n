@@ -1,3 +1,20 @@
+ki18n (5.20.0-1~7.gbp5d5eac) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @5d5eacc5c4557fbc52056c8ddc364dd467a90f83 **
+
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
+  * UNRELEASED
+  * UNRELEASED
+  * UNRELEASED
+  * UNRELEASED
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 11:11:34 +0200
+
 ki18n (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
