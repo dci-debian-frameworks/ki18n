@@ -1,6 +1,6 @@
-ki18n (5.20.0-1~8.gbp2edb5b) UNRELEASED; urgency=medium
+ki18n (5.20.0-1~9.gbpe15b53) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2edb5b616139d89af293ee7c5695d02d475aa02a **
+  ** SNAPSHOT build @e15b530028af4de7167193b960a040c7de737955 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -13,8 +13,9 @@ ki18n (5.20.0-1~8.gbp2edb5b) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:11:13 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:11:26 +0200
 
 ki18n (5.19.0-1) experimental; urgency=medium
 
