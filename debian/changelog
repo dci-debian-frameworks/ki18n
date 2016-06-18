@@ -1,11 +1,10 @@
-ki18n (5.23.0-1~1.gbpba6f1d) UNRELEASED; urgency=medium
+ki18n (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ba6f1dfa08ac6ba355fb8bd2b016a029b17c7453 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.22.1-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 21:12:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:17:23 +0200
 
 ki18n (5.22.1-1) unstable; urgency=medium
 
