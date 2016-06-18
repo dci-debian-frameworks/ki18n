@@ -1,3 +1,11 @@
+ki18n (5.23.0-2~1.gbpc8d991) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c8d991fa7987c82ea2b3d27992e10386dbfb8ed8 **
+
+  * Update symbols files.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 17 Jun 2016 21:34:13 +0200
+
 ki18n (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
