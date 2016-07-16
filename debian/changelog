@@ -4,8 +4,6 @@ ki18n (5.25.0-1~1.gbpb3e306) UNRELEASED; urgency=medium
 
   * Update symbols files.
   * Update build-deps and deps with the info from cmake
-  * Update symbols files.
-  * Update build-deps and deps with the info from cmake
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 18:11:17 +0200
 
