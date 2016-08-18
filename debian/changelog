@@ -1,19 +1,13 @@
-ki18n (5.25.0-1~2.gbpd64273) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @d64273ba80e674804fce0271fc302119552c95fe **
+ki18n (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @b3e306c0e9d617b9d71556fbd56dacf2fd44d1c6 **
-
-  * Update symbols files.
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
   [ Maximiliano Curia ]
-  * Update changelog for 5.24.0-1 release
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:11:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:17:37 +0200
 
 ki18n (5.23.0-1) unstable; urgency=medium
 
