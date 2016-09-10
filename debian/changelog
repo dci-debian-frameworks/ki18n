@@ -1,10 +1,11 @@
-ki18n (5.25.0-2~1.gbp3c4ea0) UNRELEASED; urgency=medium
+ki18n (5.26.0-1~1.gbpd77dfb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3c4ea09c9b4ac07f7dd30d3bb182939f27e7a8da **
+  ** SNAPSHOT build @d77dfb45b529617d2a8d8263ea2084c4eacc6023 **
 
   * Update symbols files from buildds logs (5.25.0-1).
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:12:13 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 13:38:45 +0200
 
 ki18n (5.25.0-1) unstable; urgency=medium
 
