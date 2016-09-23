@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.18.0 amd64 arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.25.0 amd64 armhf i386
 ktranscript.so libkf5i18n5 #MINVER#
  _ZTI11QScriptable@Base 4.97.0
  _ZTS11QScriptable@Base 4.97.0
@@ -32,6 +32,7 @@ libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _ZN16KLocalizedString27availableDomainTranslationsERK10QByteArray@Base 5.0.0
  _ZN16KLocalizedString27isApplicationTranslatedIntoERK7QString@Base 4.97.0
  _ZN16KLocalizedString32availableApplicationTranslationsEv@Base 4.97.0
+ _ZN16KLocalizedString9languagesEv@Base 5.20.0
  _ZN16KLocalizedStringC1EPKcS1_S1_S1_b@Base 4.97.0
  _ZN16KLocalizedStringC1ERKS_@Base 4.97.0
  _ZN16KLocalizedStringC1Ev@Base 4.97.0

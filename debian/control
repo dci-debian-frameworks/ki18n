@@ -5,14 +5,13 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                python,
-               qtbase5-dev (>= 5.4),
-               qtdeclarative5-dev (>= 5.3.0~),
-               qtscript5-dev (>= 5.4)
-Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
+               qtbase5-dev (>= 5.5.0~),
+               qtdeclarative5-dev (>= 5.5.0~),
+               qtscript5-dev (>= 5.5.0~)
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/ki18n
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/ki18n.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/ki18n.git
@@ -22,7 +21,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5i18n5 (= ${binary:Version}),
          python,
-         qtscript5-dev (>= 5.4),
+         qtscript5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: Advanced internationalization framework.
  Ki18n is the KDE internationalization system for
@@ -36,6 +35,15 @@ Description: Advanced internationalization framework.
  functionality over basic Gettext.
  .
  Contains development files for ki18n.
+Breaks: kross-dev (<< 5.25),
+        libkf5configwidgets-dev (<< 5.25),
+        libkf5iconthemes-dev (<< 5.25),
+        libkf5jsembed-dev (<< 5.25),
+        libkf5khtml-dev (<< 5.25),
+        libkf5notifyconfig-dev (<< 5.25),
+        libkf5pty-dev (<< 5.25),
+        libkf5service-dev (<< 5.25),
+        libkf5unitconversion-dev (<< 5.25)
 
 Package: libkf5i18n5
 Architecture: any
@@ -53,6 +61,55 @@ Description: Advanced internationalization framework.
  It can be considered a Gettext-wrapper for code based on
  the Qt library, but it also provides additional
  functionality over basic Gettext.
+Breaks: baloo-kf5 (<< 5.25),
+        frameworkintegration (<< 5.25),
+        kinit (<< 5.25),
+        kio (<< 5.25),
+        kpackagelauncherqml (<< 5.25),
+        kpackagetool5 (<< 5.25),
+        kross (<< 5.25),
+        libkf5configwidgets5 (<< 5.25),
+        libkf5declarative5 (<< 5.25),
+        libkf5filemetadata3 (<< 5.25),
+        libkf5iconthemes5 (<< 5.25),
+        libkf5jsembed-dev (<< 5.25),
+        libkf5jsembed5 (<< 5.25),
+        libkf5kcmutils5 (<< 5.25),
+        libkf5kdelibs4support5 (<< 5.25),
+        libkf5kdelibs4support5-bin (<< 5.25),
+        libkf5khtml-bin (<< 5.25),
+        libkf5khtml5 (<< 5.25),
+        libkf5kiocore5 (<< 5.25),
+        libkf5kiofilewidgets5 (<< 5.25),
+        libkf5kiogui5 (<< 5.25),
+        libkf5kiowidgets5 (<< 5.25),
+        libkf5krosscore5 (<< 5.25),
+        libkf5krossui5 (<< 5.25),
+        libkf5newstuff5 (<< 5.25),
+        libkf5notifyconfig5 (<< 5.25),
+        libkf5package5 (<< 5.25),
+        libkf5parts-plugins (<< 5.25),
+        libkf5parts5 (<< 5.25),
+        libkf5people5 (<< 5.25),
+        libkf5peoplewidgets5 (<< 5.25),
+        libkf5plasma5 (<< 5.25),
+        libkf5plasmaquick5 (<< 5.25),
+        libkf5pty5 (<< 5.25),
+        libkf5runner5 (<< 5.25),
+        libkf5service-bin (<< 5.25),
+        libkf5service5 (<< 5.25),
+        libkf5su-bin (<< 5.25),
+        libkf5texteditor5 (<< 5.25),
+        libkf5textwidgets5 (<< 5.25),
+        libkf5unitconversion5 (<< 5.25),
+        libkf5wallet-bin (<< 5.25),
+        libkf5xmlgui-bin (<< 5.25),
+        libkf5xmlgui5 (<< 5.25),
+        libkf5xmlrpcclient5 (<< 5.25),
+        libkwalletbackend5-5 (<< 5.25),
+        plasma-framework (<< 5.25),
+        qml-module-org-kde-extensionplugin (<< 5.25),
+        qml-module-org-kde-kquickcontrols (<< 5.25)
 
 Package: libkf5i18n-data
 Architecture: all
