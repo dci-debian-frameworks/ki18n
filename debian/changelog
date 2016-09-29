@@ -1,11 +1,13 @@
-ki18n (5.26.0-1~1.gbpd77dfb) UNRELEASED; urgency=medium
+ki18n (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @d77dfb45b529617d2a8d8263ea2084c4eacc6023 **
-
+  [ Automatic packaging ]
   * Update symbols files from buildds logs (5.25.0-1).
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 13:38:45 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:56:13 +0200
 
 ki18n (5.25.0-1) unstable; urgency=medium
 
