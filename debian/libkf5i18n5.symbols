@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.26.0 ppc64 x32
+# SymbolsHelper-Confirmed: 5.26.0 amd64 armhf i386 ppc64 x32
 ktranscript.so libkf5i18n5 #MINVER#
  _ZTI11QScriptable@Base 4.97.0
  _ZTS11QScriptable@Base 4.97.0
