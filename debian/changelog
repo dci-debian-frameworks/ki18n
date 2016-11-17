@@ -1,3 +1,9 @@
+ki18n (5.28.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Nov 2016 09:45:55 +0000
+
 ki18n (5.27.0-2) unstable; urgency=medium
 
   [ Helmut Grohne ]
