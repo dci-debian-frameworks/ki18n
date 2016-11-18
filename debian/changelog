@@ -1,11 +1,14 @@
-ki18n (5.28.0-1~1.gbp0b534e) UNRELEASED; urgency=medium
+ki18n (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0b534e0f0cb2a209b3d39e39eb99c43a93cf8679 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.27.0-2).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 17:36:45 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:01:32 +0100
 
 ki18n (5.27.0-2) unstable; urgency=medium
 
