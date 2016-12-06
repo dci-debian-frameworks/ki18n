@@ -1,3 +1,15 @@
+ki18n (5.28.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.27.0-2).
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:01:32 +0100
+
 ki18n (5.28.0-0neon) xenial; urgency=medium
 
   * New release
