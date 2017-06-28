@@ -40,6 +40,15 @@ ki18n (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:07:32 +0000
 
+ki18n (5.28.0-2) unstable; urgency=medium
+
+  * Update build-deps and deps with the info from cmake.
+    Thanks to Frédéric Brière for reporting (Closes: 852755)
+  * Add new upstream patch:
+    Check-properly-pointer-inequality-from-dngettext.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Apr 2017 12:04:43 +0200
+
 ki18n (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
