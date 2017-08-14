@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.27.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.37.0 amd64
 ktranscript.so libkf5i18n5 #MINVER#
  _ZTI11QScriptable@Base 4.97.0
  _ZTS11QScriptable@Base 4.97.0
@@ -27,6 +27,7 @@ libKF5I18n.so.5 libkf5i18n5 #MINVER#
  _ZN16KLocalizedString14removeQtDomainEPKc@Base 4.97.0
  _ZN16KLocalizedString17applicationDomainEv@Base 4.97.0
  _ZN16KLocalizedString17localizedFilePathERK7QString@Base 4.97.0
+ _ZN16KLocalizedString18addDomainLocaleDirERK10QByteArrayRK7QString@Base 5.37.0
  _ZN16KLocalizedString20setApplicationDomainEPKc@Base 4.97.0
  _ZN16KLocalizedString23removeAcceleratorMarkerERK7QString@Base 4.97.0
  _ZN16KLocalizedString27availableDomainTranslationsERK10QByteArray@Base 5.0.0
