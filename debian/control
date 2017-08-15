@@ -85,6 +85,7 @@ Description: Advanced internationalization framework (documentation)
  functionality over basic Gettext.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5i18n5
 Architecture: any
