@@ -8,7 +8,7 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 5.28.0~),
                gettext,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               python,
+               python3 | python,
                qtbase5-dev (>= 5.5.0~),
                qtdeclarative5-dev (>= 5.5.0~),
                qtscript5-dev (>= 5.5.0~)
@@ -21,7 +21,7 @@ Package: libkf5i18n-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5i18n5 (= ${binary:Version}),
-         python:any,
+         python3:any | python:any,
          qtscript5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: Advanced internationalization framework.
