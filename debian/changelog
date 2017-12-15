@@ -1,8 +1,11 @@
-ki18n (5.41.0-1~) UNRELEASED; urgency=medium
+ki18n (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.41.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.41)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 12:22:24 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:42:39 -0300
 
 ki18n (5.41.0-0neon) xenial; urgency=medium
 
